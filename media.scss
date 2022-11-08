@@ -1,0 +1,121 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 1024px) {
+  #footer {
+    .footer {
+      &--company {
+        &__desc {
+          width: 1024px;
+        }
+      }
+
+      &--pod {
+        width: 1000px;
+      }
+
+    }
+  }
+  #accor {
+    .accor {
+      width: 90%;
+    }
+  }
+#zayavka {
+  .zayavka{
+    width: 90%;
+  }
+}
+  #paket{
+    .paket{
+      flex-direction: column;
+      &--start{
+        p{
+          font-size: 13px !important;
+        }
+      }
+    }
+  }
+  #process{
+    .process{
+      width: 88%;
+    }
+  }
+  #animation{
+    .animation{
+      &--store{
+        &__moon{
+          width: 1012px;
+          h1{
+            font-size: 45px !important;
+          }
+        }
+        &__moon2{
+          width: 1000px;
+          h2{
+            font-size: 30px !important;
+          }
+        }
+        &__moon3{
+          width: 975px;
+          h3{
+            font-size: 28px !important;
+          }
+        }
+
+      }
+    }
+  }
+  #format{
+    .format{
+      width: 90%;
+    }
+  }
+  #miss{
+    .miss{
+      &--fon{
+        width: 87%;
+      }
+    }
+  }
+  #header{
+    .header{
+      width: 89%;
+    }
+  }
+  #hero{
+    .hero{
+      width: 88%;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 820px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 450px) {
+}
+
+@media (max-width: 414px) {
+}
+
+@media (max-width: 375px) {
+}
+
+@media (max-width: 320px) {
+}
